@@ -6,18 +6,18 @@
 /// Config Area ///
 
 var enableWhitelist = true; // Enable the Whitelist/Allowlist
-var guildId = "DISCORD_GUILD_ID"; // Guild ID for a Discord Server, see https://faxes.zone/i/zjKnd.png
-var botToken = "DISCORD_BOT_TOKEN"; // This must be a Discord bot token, create a bot @ https://discord.com/developers/applications
+var guildId = "933681973325606912"; // Guild ID for a Discord Server, see https://faxes.zone/i/zjKnd.png
+var botToken = "OTMzMDAzNzE0MzY3NzM3OTE3.YebNaw.qN3PhmC2J459zXXDVLCTehFw8sw"; // This must be a Discord bot token, create a bot @ https://discord.com/developers/applications
 
 var whitelistRoles = [ // Roles by ID that are whitelisted.
-    "ROLE_ID"
+    "961120891352277052"
 ];
 var blacklistRoles = [ // Roles by Id that are blacklisted.
-    "ROLE_ID"
+    "961120972897910864"
 ];
 
-var notWhitelistedMessage = "You're Not Whitelisted. This sever is whitelisted and requires access to join.";
-var noGuildMessage = "Guild Not Detected. It seems you're not in the guild for this community.";
+var notWhitelistedMessage = "Kamu Sudah Join Discord Tetapi Kenapa tidak memilih Role Citizen???";
+var noGuildMessage = "Silahkan Masuk Discord Dah Memilih Role Citizen";
 var blacklistMessage = "You're blacklisted from this server.";
 var debugMode = false; // 
 var cacheMaxTime = "1h"; // This is the time it takes for refreshes (cache) to have to reload when fetching Discord roles.
